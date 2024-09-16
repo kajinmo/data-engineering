@@ -4,7 +4,7 @@
 
 1. Clone the git repository:
 ```bash
-git clone https://github.com/kajinmo/Sonar-Mines-vs-Rocks.git](https://github.com/kajinmo/data-engineering.git
+git clone https://github.com/kajinmo/data-engineering.git
 cd data-engineering
 ```
 
