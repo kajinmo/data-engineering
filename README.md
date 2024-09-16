@@ -1,6 +1,6 @@
 # Data Engineering training projects
 
-### Setup
+### Setup - Instructions for installation and configuration in bash
 
 1. Clone the git repository:
 ```bash
