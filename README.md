@@ -1,31 +1,4 @@
-# Data Engineering training projects
+Data Engineering Training and Portfolio
+This repository showcases my data engineering training projects and portfolio. Each directory contains a project with a dedicated README that provides a detailed description and step-by-step instructions on how to run the project on your local machine.
 
-### Setup - Instructions for installation and configuration in bash
-
-1. Clone the git repository:
-```bash
-git clone https://github.com/kajinmo/data-engineering.git
-cd data-engineering
-```
-
-2. Configure the correct Python version with `pyenv`:
-```bash
-pyenv install 3.12.3
-pyenv local 3.12.3
-```
-
-3. Configure `poetry` for Python version 3.12.3 and activate the virtual environment:
-```bash
-poetry env use 3.12.3
-poetry shell
-```
-
-4. Install project dependencies:
-```bash
-poetry install
-```
-
-5. Open vscode:
-```
-code
-```
+Feel free to explore the projects and use them as a reference for learning and development.
