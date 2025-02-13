@@ -36,29 +36,27 @@ and was replicated in five different ways:
 1. Clone the git repository:
 ```bash
 git clone https://github.com/kajinmo/data-engineering.git
-cd data-engineering
+cd data-engineering/1-billion
 ```
 
-2. Configure the correct Python version with `pyenv`:
+2. Create venv and install Python version 3.12.3:
 ```bash
-pyenv install 3.12.3
-pyenv local 3.12.3
+uv venv
 ```
 
-3. Configure `poetry` for Python version 3.12.3 and activate the virtual environment:
-```bash
-poetry env use 3.12.3
-poetry shell
-```
-
-4. Install project dependencies:
-```bash
-poetry install
-```
-
-5. Open vscode:
+3. Open vscode:
 ```bash
 code .
+```
+
+4. Activate venv:
+```bash
+source .venv/Scripts/activate
+```
+
+5. Install project dependencies:
+```bash
+uv pip install -r pyproject.toml
 ```
 
 6. run create_measurements.py
