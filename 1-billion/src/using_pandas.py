@@ -4,7 +4,6 @@ from tqdm import tqdm
 from create_measurements import num_rows_to_create
 
 CONCURRENCY = cpu_count()
-
 total_rows = num_rows_to_create
 chunksize = 100_000_000
 filename = "data/measurements.txt"
@@ -40,11 +39,10 @@ def create_df_with_pandas(filename, total_rows, chunksize=chunksize):
 
 if __name__ == "__main__":
     import time
-
     print("Starting file processing.")
     start_time = time.time()
     df = create_df_with_pandas(filename, total_rows, chunksize)
     took = time.time() - start_time
 
     print(df.head())
-    print(f"Processing took: {took:.2f} sec")
+    print(f"Pandas took: {took:.2f} sec")
